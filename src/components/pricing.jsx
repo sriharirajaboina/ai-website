@@ -5,7 +5,7 @@ const pricing = () => {
     <div className="px-33 py-4 text-[#ffffff]">
         <div >
             <div className="text-center">
-                <h1 className="text-5xl mb-6">Pricing</h1>
+                <h1 className="text-5xl mb-5">Pricing</h1>
                 <p className="text-lg">Choose the plan to meet your SEO
                     <br/>
                     needs and start optimizing today. 
@@ -17,102 +17,129 @@ const pricing = () => {
                 <h5>dsad</h5>
                 </div>   
             </div>
-            <div className="mt-10 flex justify-between">
-                <div className="p-4 border-2 border-[#ffffff30] rounded-lg">
+            <div className="mt-10 flex gap-8 justify-between">
+                <div className="relative p-5 border-2 border-[#ffffff30] rounded-lg flex flex-col justify-between w-full max-w-base">
                     <div>
-                        <h5>Pricing</h5>
-                        <h6>$29/mo</h6>
+                        <div className="border-b border-[#ffffff30] tracking-wide">
+                            <h5 className="text-xl font-semibold">Pricing</h5>
+                            <h6 className="mt-2 text-base pb-5">$29/mo</h6>
+                        </div>
+
+                        <div className="mt-6 text-sm">
+                            <div className="flex items-center gap-5 py-2.5">
+                                <CheckIcon />
+                                <h5>Keyword optimization</h5>
+                            </div>
+                            <div className="flex items-center gap-5 py-2.5">
+                                <CheckIcon />
+                                <h5>Automated meta tags</h5>
+                            </div>
+                            <div className="flex items-center gap-5 py-2.5">
+                                <CheckIcon />
+                                <h5>SEO monitoring</h5>
+                            </div>
+                            <div className="flex items-center gap-5 py-2.5">
+                                <CheckIcon />
+                                <h5>Monthly reports</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <div className="flex items-center gap-3 mb-4">
-                           <CheckIcon />
-                           <h5>Keyword optimization</h5> 
-                        </div>
-                        <div className="flex items-center gap-3 mb-4">
-                            <CheckIcon />
-                            <h5>Automated meta tags</h5>
-                        </div>
-                        <div className="flex items-center gap-3 mb-4">
-                             <CheckIcon />
-                             <h5>SEo monitoring</h5>
-                        </div>
-                        <div className="flex items-center gap-3 mb-4">
-                             <CheckIcon />
-                             <h5>Monthly reports</h5>
-                        </div>
+
+                    <div className="px-4 py-1.5 bg-[#3d3d3d40] border-2 border-[#ffffff30] text-center rounded-xl 
+                        backdrop-blur-[14px] shadow-[inset_0_0_6px_3px_#ffffff25] mt-8">
+                        <button className="text-sm tracking-widest">Join waitlist</button>
                     </div>
                 </div>
-                <div className="p-4 border-2 border-[#ffffff30] rounded-lg">
+                <div className="p-5 border-2 border-[#ffffff30] rounded-lg flex flex-col justify-between w-full max-w-base z-8">
                     <div>
-                        <h5>Pro</h5>
-                        <h6>$79/mo</h6>
+                        <div className="relative border-b border-[#ffffff30] tracking-wide">
+                            <h5 className="text-xl font-semibold">Pro</h5>
+                            <h6 className="mt-2 text-base pb-5">$79/mo</h6>
+                        </div>
+
+                        <div className="relative mt-6 text-sm">
+                            <div className="flex items-center gap-5 py-2.5">
+                                <CheckIcon />
+                                <h5>Keyword optimization</h5>
+                            </div>
+                            <div className="flex items-center gap-5 py-2.5">
+                                <CheckIcon />
+                                <h5>Automated meta tags</h5>
+                            </div>
+                            <div className="flex items-center gap-5 py-2.5">
+                                <CheckIcon />
+                                <h5>SEO monitoring</h5>
+                            </div>
+                            <div className="flex items-center gap-5 py-2.5">
+                                <CheckIcon />
+                                <h5>Monthly reports</h5>
+                            </div>
+                            <div className="flex items-center gap-5 py-2.5">
+                                <CheckIcon />
+                                <h5>Content Suggestions</h5>
+                            </div>
+                            <div className="flex items-center gap-5 py-2.5">
+                                <CheckIcon />
+                                <h5>Link optimization</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <div className="flex items-center gap-3 mb-4">
-                           <CheckIcon />
-                           <h5>Keyword optimization</h5> 
-                        </div>
-                        <div className="flex items-center gap-3 mb-4">
-                            <CheckIcon />
-                            <h5>Automated meta tags</h5>
-                        </div>
-                        <div className="flex items-center gap-3 mb-4">
-                             <CheckIcon />
-                             <h5>SEo monitoring</h5>
-                        </div>
-                        <div className="flex items-center gap-3 mb-4">
-                             <CheckIcon />
-                             <h5>Monthly reports</h5>
-                        </div>
-                        <div className="flex items-center gap-3 mb-4">
-                            <CheckIcon />
-                            <h5>Content Suggestions</h5>
-                        </div>
-                        <div className="flex items-center gap-3 mb-4">
-                             <CheckIcon />
-                             <h5>link optimization</h5>
+
+                    <div className="px-4 py-1.5 bg-[#8C45FF40] border-2 border-[#ffffff30] text-center rounded-xl
+                        backdrop-blur-[14px] shadow-[inset_0_0_6px_3px_#ffffff25] mt-8">
+                        <button className="text-sm tracking-widest">Join waitlist</button>
                         </div>
                     </div>
+                    <div className="relative p-5 border-2 border-[#ffffff30] rounded-lg flex flex-col justify-between w-full max-w-base">
+                        <div>
+                            <div className="border-b border-[#ffffff30] tracking-wide">
+                                <h5 className="text-xl font-semibold">Business</h5>
+                                <h6 className="mt-2 text-base pb-5">$149/mo</h6>
+                            </div>
+
+                            <div className="mt-6 text-sm z-8">
+                                <div className="flex items-center gap-5 py-2.5">
+                                    <CheckIcon />
+                                    <h5>Keyword optimization</h5>
+                                </div>
+                                <div className="flex items-center gap-5 py-2.5">
+                                    <CheckIcon />
+                                    <h5>Automated meta tags</h5>
+                                </div>
+                                <div className="flex items-center gap-5 py-2.5">
+                                    <CheckIcon />
+                                    <h5>SEO monitoring</h5>
+                                </div>
+                                <div className="flex items-center gap-5 py-2.5">
+                                    <CheckIcon />
+                                    <h5>Monthly reports</h5>
+                                </div>
+                                <div className="flex items-center gap-5 py-2.5">
+                                    <CheckIcon />
+                                    <h5>Content Suggestions</h5>
+                                </div>
+                                <div className="flex items-center gap-5 py-2.5">
+                                    <CheckIcon />
+                                    <h5>Link optimization</h5>
+                                </div>
+                                <div className="flex items-center gap-5 py-2.5">
+                                    <CheckIcon />
+                                    <h5>Multi-user access</h5>
+                                </div>
+                                <div className="flex items-center gap-5 py-2.5">
+                                    <CheckIcon />
+                                    <h5>API integration</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="px-4 py-1.5 bg-[#3d3d3d40] border-2 border-[#ffffff30] text-center rounded-xl 
+                            backdrop-blur-[14px] shadow-[inset_0_0_6px_3px_#ffffff25] mt-8">
+                            <button className="text-sm tracking-widest">Join waitlist</button>
+                        </div>
+                    </div>
+                     {/* <div className="absolute bg-[#8C45FF50]  shadow-[0_0_80px_66px_#8C45FF66] w-200 h-100  rounded-full ml-40 mt-5 z-6"></div> */}
                 </div>
-                <div className="p-4 border-2 border-[#ffffff30] rounded-lg">
-                    <div>
-                        <h5>Bussiness</h5>
-                        <h6>@149/mo</h6>
-                    </div>
-                    <div className="flex items-center gap-3 mb-4">
-                        <CheckIcon />
-                        <h5>Keyword optimization</h5> 
-                    </div>
-                   <div className="flex items-center gap-3 mb-4">
-                        <CheckIcon />
-                        <h5>Automated meta tags</h5>
-                    </div>
-                    <div className="flex items-center gap-3 mb-4">
-                        <CheckIcon />
-                        <h5>SEo monitoring</h5>
-                    </div>
-                    <div className="flex items-center gap-3 mb-4">
-                        <CheckIcon />
-                        <h5>Monthly reports</h5>
-                    </div>
-                    <div className="flex items-center gap-3 mb-4">
-                        <CheckIcon />
-                        <h5>Content Suggestions</h5>
-                    </div>
-                    <div className="flex items-center gap-3 mb-4">
-                        <CheckIcon />
-                        <h5>link optimization</h5>
-                    </div>
-                    <div className="flex items-center gap-3 mb-4">
-                        <CheckIcon />
-                        <h5>Multi-user access</h5>
-                    </div>
-                    <div className="flex items-center gap-3 mb-4">
-                        <CheckIcon />
-                        <h5>Api integration</h5>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
   )

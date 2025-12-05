@@ -4,6 +4,11 @@ import Header from './components/Header'
 import Pricing from './components/pricing'
 import Subscribtion from './components/Subscribtion'
 import Footer from './components/Footer'
+import Client from './components/Client'
+import Features from './components/Features'
+import Comapanies from './components/Comapanies'
+import Bento from './components/Bento'
+
 
 
 function App() {
@@ -11,7 +16,11 @@ function App() {
   return (
     <>
       <div className="bg-[#020103]">
-        <Header/> 
+        <Header/>
+        <Comapanies/>
+        <Bento/>
+        <Features/>
+        <Client/>
         <Pricing/>
         <Subscribtion/>
         <Footer/>
