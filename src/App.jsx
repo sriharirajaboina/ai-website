@@ -8,6 +8,7 @@ import Client from './components/Client'
 import Features from './components/Features'
 import Comapanies from './components/Comapanies'
 import Bento from './components/Bento'
+import HeroSection from './components/HeroSection'
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <>
       <div className="bg-[#020103]">
         <Header/>
+        <HeroSection/>
         <Comapanies/>
         <Bento/>
         <Features/>
