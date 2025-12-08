@@ -1,8 +1,9 @@
 import React from 'react'
 import seo from "../assets/seo.png"
-import cone from "../assets/cone.png"
-import bento1 from "../assets/bento1.png"
-import bento2 from "../assets/bento2.png"
+import cones from "../assets/cones.png"
+import Traffic from './graph/Traffic'
+import Overview from "./graph/Overview"
+
 
 const Bento = () => {
   return (
@@ -20,7 +21,7 @@ const Bento = () => {
                     <img 
                         src={seo} 
                         alt="seo" 
-                        className="w-60 h-50 object-contain flex items-center"
+                        className="w-90 h-90 object-contain flex items-center"
                     />
                     <h5 className="font-semibold">
                         SEO goal setting
@@ -34,22 +35,30 @@ const Bento = () => {
                 </div>
 
                 <div >
-                    <div className=" p-2 bg-[linear-gradient(to_bottom,#030106,#361764)] border border-[#ffffff40] rounded-xl">
-                         <img src={bento1} alt="bento1"
-                        className="w-280 h-90"/>
+                    <div className="w-250 h-130 p-2 bg-[linear-gradient(to_bottom,#030106,#361764)] border border-[#ffffff40] rounded-xl overflow-hidden">
+                        <Overview/>
                     </div>  
                 </div>
             </div>
             <div className="my-8 flex gap-3">
-                <div className=" p-2 bg-[linear-gradient(to_bottom,#030106,#361764)] border border-[#ffffff40] rounded-xl">
-                    <img src={bento2} alt="bento2"
-                    className="w-280 h-110"/>
+                <div className="w-250 bg-[linear-gradient(to_bottom,#030106,#361764)] border-l border-b border-r border-[#ffffff40] rounded-xl">
+                    <div className="">
+                        <Traffic className=""/>
+                        <div className="p-8 -mt-35 tracking-wide leading-6">
+                            <h5 className="font-semibold">Visual reports</h5>
+                            <p className="text-[#ffffff40]">Visual insights into your
+                                <br/>site's performance
+                            </p>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
                 <div className="flex flex-col items-center 
                     border border-[#ffffff30] rounded-xl
                     hover:bg-[#ffffff10] transition-all duration-300">
-                    <img src={cone} alt="cone"
-                    className="w-80 h-90"/>
+                    <img src={cones} alt="cone"
+                    className="w-90 h-90"/>
                     <h5 className="font-semibold">
                         Smart Keyword Generator
                     </h5>

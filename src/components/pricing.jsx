@@ -3,7 +3,7 @@ import CheckIcon from "@mui/icons-material/Check";
 const pricing = () => {
   return (
     <div className="px-33 py-4 text-[#ffffff]">
-        <div >
+        <div className="">
             <div className="text-center">
                 <h1 className="text-5xl mb-5">Pricing</h1>
                 <p className="text-lg">Choose the plan to meet your SEO
@@ -17,6 +17,19 @@ const pricing = () => {
                 <h5>dsad</h5>
                 </div>   
             </div>
+            <div className="relative">
+            <div
+                className="
+                relative before:content-[''] before:absolute
+                before:w-240 before:h-120        /* width > height = ellipse */
+                before:top-10 before:left-1/2 before:-translate-x-1/2
+                before:bg-[#8C45FF66]
+                before:blur-[60px] before:rounded-full before:pointer-events-none
+                z-0
+                "
+            ></div>
+            </div>
+            
             <div className="mt-10 flex gap-8 justify-between">
                 <div className="relative p-5 border-2 border-[#ffffff30] rounded-lg flex flex-col justify-between w-full max-w-base">
                     <div>
@@ -51,8 +64,8 @@ const pricing = () => {
                     </div>
                 </div>
                 <div className="p-5 border-2 border-[#ffffff30] rounded-lg flex flex-col justify-between w-full max-w-base z-8">
-                    <div>
-                        <div className="relative border-b border-[#ffffff30] tracking-wide">
+                    <div className="overflow-hidden">
+                        <div className="border-b border-[#ffffff30] tracking-wide">
                             <h5 className="text-xl font-semibold">Pro</h5>
                             <h6 className="mt-2 text-base pb-5">$79/mo</h6>
                         </div>
@@ -136,10 +149,9 @@ const pricing = () => {
                         <div className="px-4 py-1.5 bg-[#3d3d3d40] border-2 border-[#ffffff30] text-center rounded-xl 
                             backdrop-blur-[14px] shadow-[inset_0_0_6px_3px_#ffffff25] mt-8">
                             <button className="text-sm tracking-widest">Join waitlist</button>
-                        </div>
                     </div>
-                     {/* <div className="absolute bg-[#8C45FF50]  shadow-[0_0_80px_66px_#8C45FF66] w-200 h-100  rounded-full ml-40 mt-5 z-6"></div> */}
-                </div>
+                </div>     
+            </div>
         </div>
     </div>
   )

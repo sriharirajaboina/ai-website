@@ -1,3 +1,26 @@
+/* .card-glow {
+  position: relative;
+  height: 1275px;
+  margin-top: 20px;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+}
+
+/* TOP glow */
+.card-glow::before {
+  content: "";
+  position: absolute;
+  left: 33.33%;     /* left 1/3 */
+  right: 33.33%;    /* right 1/3 */
+  top: -40px;       /* same as -top-10 */
+  height: 80px;     /* h-20 */
+  background: rgba(140, 69, 255, 0.15);
+  filter: blur(80px);
+  border-radius: 50%;
+  pointer-events: none;
+} */
+
 .client h5{
     font-weight: 600;
 }

@@ -9,8 +9,7 @@ import Features from './components/Features'
 import Comapanies from './components/Comapanies'
 import Bento from './components/Bento'
 import HeroSection from './components/HeroSection'
-
-
+import Graphs from './components/Graphs'
 
 function App() {
  
@@ -19,6 +18,7 @@ function App() {
       <div className="bg-[#020103]">
         <Header/>
         <HeroSection/>
+        <Graphs/>
         <Comapanies/>
         <Bento/>
         <Features/>
